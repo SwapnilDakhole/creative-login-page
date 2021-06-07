@@ -1,0 +1,68 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+	padding:0;
+	margin:0;
+	font-family: sans-serif;
+	background:url(https://i.imgur.com/b9cMUWS.jpg) no-repeat;
+	background-size:cover;
+	color:white;
+}
+
+.login-box{
+	width:327px;
+	position:absolute;
+	display:flex;
+	flex-direction:column;
+	float:left;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+}
+
+.login-box h1{
+	float:left;
+	font-size:40px;
+	border-bottom:6px solid #52E949;
+	padding:10px;
+}
+
+ .text-box{
+	display:flex;
+	float:left;
+ }
+ .text-box img{
+	width:26px
+	float:left;
+	text-align:center;
+ }
+ 
+ .text-box input{
+	border:none;
+	outline:none;
+	background:none;
+	color:white;
+	font-size:25px;
+	width:80%;
+	float:left;
+	margin:0px 10px;
+	border-bottom:2px solid #52E949;
+ }
+
+.btn{
+	width:100%;
+	color:white;
+	font-size:23px;
+	background:none;
+	text-align:center;
+	padding:10px 10px;
+	margin:10px 0px;
+	border:3.5px solid #52E949;
+	border-radius:12px;
+}
+
+.btn:hover{
+	font-size:30px;
+	font-weight:bold;
+	border:3.5px solid #49D7E9;
+}
